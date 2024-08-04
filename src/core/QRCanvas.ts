@@ -375,6 +375,7 @@ export default class QRCanvas {
               image.width = this._options.width;
               image.height = this._options.height;
             }
+            image.style.borderRadius = "50%";
             this._image = image;
             resolve();
           })
